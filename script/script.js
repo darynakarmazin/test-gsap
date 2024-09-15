@@ -13,6 +13,12 @@ if (heroTitle) {
 }
 
 const subSectionAnimate = (selectedSection) => {
+  ScrollTrigger.getAll().forEach((trigger) => {
+    if (trigger.trigger === selectedSection) {
+      trigger.kill();
+    }
+  });
+
   const titleElement = selectedSection.querySelector(
     ".active.content-section .title-wrapper h2"
   );
