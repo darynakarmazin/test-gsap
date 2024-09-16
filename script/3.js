@@ -56,7 +56,7 @@ const subSectionAnimate = (selectedSection) => {
           y: -120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -69,7 +69,7 @@ const subSectionAnimate = (selectedSection) => {
           x: 120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -82,7 +82,7 @@ const subSectionAnimate = (selectedSection) => {
           y: 120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -95,7 +95,7 @@ const subSectionAnimate = (selectedSection) => {
           y: -120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -108,7 +108,7 @@ const subSectionAnimate = (selectedSection) => {
           y: -120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
@@ -121,7 +121,7 @@ const subSectionAnimate = (selectedSection) => {
           x: 120,
           duration: 1,
           scrollTrigger: {
-            trigger: selectedSection,
+            trigger: item,
             start: "top 80%",
             toggleActions: "play none none none",
           },
